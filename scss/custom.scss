@@ -1,8 +1,11 @@
+
+// main-body
 body {
     font-family: "Raleway", sans-serif;
-    background: orangered;
+    background: gold;
 }
 
+// navbar
 .navbar {
     font-weight: 100;
 
@@ -19,6 +22,19 @@ body {
     }
 }
 
+// cover
+#showcase {
+    background: url("../images/main.jpg") bottom center / cover no-repeat;
+    min-height: 750px;
+    h1 {
+        font-family: "Questrial", sans-serif;
+        line-height: 1;
+    }
+
+}
+
+
+// media-queries 
 @media(max-width: 768px) {
     .navbar {
         background: #1f1f1f;
