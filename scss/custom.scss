@@ -8,7 +8,11 @@ body {
 // navbar
 .navbar {
     font-weight: 100;
-
+    position: absolute;
+    top: 0;
+    right: 0;
+    left:0;
+    z-index: 3;
     .navbar-brand h3 {
         font-weight: 100;
     }
@@ -22,17 +26,38 @@ body {
     }
 }
 
-// cover
+// cover showcase
 #showcase {
-    background: url("../images/main.jpg") bottom center / cover no-repeat;
-    min-height: 750px;
+    background: url("../images/front-beach.jpg");
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    #header {
+    z-index: 2;
+    }
+// overlay of the nvabar
+    #overlay {
+        background: rgba(0,0,0,0.1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
     h1 {
         font-family: "Questrial", sans-serif;
         line-height: 1;
     }
+    #book {
+        font-size: 1.5rem;
+        border-radius: 2rem;
+    }
 
 }
-
 
 // media-queries 
 @media(max-width: 768px) {
@@ -40,6 +65,12 @@ body {
         background: #1f1f1f;
         .nav-link:hover {
             border-bottom: none;
+        }
+    }
+    #showcase {
+        min-height: 500px;
+        h1 {
+            font-size: 4rem;
         }
     }
 }
