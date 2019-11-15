@@ -32,16 +32,16 @@
                     <a href="#" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">About</a>
+                    <a href="#samples" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Explore</a>
+                    <a href="#explore" class="nav-link">Explore</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Contact</a>
+                    <a href="#newsletter" class="nav-link">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Book</a>
+                    <a href="" class="nav-link" data-toggle="modal" data-target="#bookingModal">Book</a>
                 </li>
             </ul>
         </div>
@@ -56,7 +56,8 @@
             <p class="lead d-none d-md-block">Come to the southwestern pacific region of Nicaragua and visit San Juan
                 Del
                 Sur! A lovely hidden gem!!!</p>
-            <button id="book" class="btn btn-lg btn-primary px-5">BOOK NOW</button>
+            <button id="book" class="btn btn-lg btn-primary px-5" data-toggle="modal" data-target="#bookingModal">BOOK
+                NOW</button>
         </div>
     </section>
     <!-- cover ends -->
@@ -91,7 +92,7 @@
     </section>
     <!-- end of samples -->
     <!-- cards -->
-    <section id="cards">
+    <section id="explore">
         <div class="container text-center">
             <h3>WE CREATED A GET AWAY EXPERIENCE YOU WON'T FORGET</h3>
             <div class="row mt-3">
@@ -213,35 +214,171 @@
         <div class="container text-center">
             <h3>See what others are saying</h3>
             <h5 class="text-primary">#SANJUANDELSUR</h5>
-            <div class="row-mt-4">
+            <div class="row mt-4">
                 <div class="col-6 col-lg-3 mb-4">
-                    <img class="image-fluid" src="images/gallery/gallery-1.jpeg" alt="">
+                    <img class="img-fluid" src="images/gallery/gallery-1.jpeg" alt="Responsive image">
                 </div>
                 <div class="col-6 col-lg-3 mb-4">
-                    <img class="image-fluid" src="images/gallery/gallery-2.jpeg" alt="">
+                    <img class="img-fluid" src="images/gallery/gallery-2.jpeg" alt="Responsive image">
                 </div>
                 <div class="col-6 col-lg-3 mb-4">
-                    <img class="image-fluid" src="images/gallery/gallery-3.jpeg" alt="">
+                    <img class="img-fluid" src="images/gallery/gallery-3.jpeg" alt="Responsive image">
                 </div>
                 <div class="col-6 col-lg-3 mb-4">
-                    <img class="image-fluid" src="images/gallery/gallery-4.jpeg" alt="">
+                    <img class="img-fluid" src="images/gallery/gallery-4.jpeg" alt="Responsive image">
                 </div>
                 <div class="col-6 col-lg-3 mb-4">
-                    <img class="image-fluid" src="images/gallery/gallery-5.jpeg" alt="">
+                    <img class="img-fluid" src="images/gallery/gallery-5.jpeg" alt="Responsive image">
                 </div>
                 <div class="col-6 col-lg-3 mb-4">
-                    <img class="image-fluid" src="images/gallery/gallery-6.jpeg" alt="">
+                    <img class="img-fluid" src="images/gallery/gallery-6.jpeg" alt="Responsive image">
                 </div>
                 <div class="col-6 col-lg-3 mb-4">
-                    <img class="image-fluid" src="images/gallery/gallery-7.jpeg" alt="">
+                    <img class="img-fluid" src="images/gallery/gallery-7.jpeg" alt="Responsive image">
                 </div>
                 <div class="col-6 col-lg-3 mb-4">
-                    <img class="image-fluid" src="images/gallery/gallery-8.jpeg" alt="">
+                    <img class="img-fluid" src="images/gallery/gallery-8.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-9.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-10.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-11.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-12.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-13.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-14.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-15.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-16.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-17.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-18.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-19.jpeg" alt="Responsive image">
+                </div>
+                <div class="col-6 col-lg-3 mb-4">
+                    <img class="img-fluid" src="images/gallery/gallery-20.jpeg" alt="Responsive image">
                 </div>
             </div>
         </div>
     </section>
+    <!-- last quote -->
+    <section id="bottom-quote">
+        <div class="container text-center mt-4">
+            <blockquote class="blockquote">
+                <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                <p class="mb-0">Oh, how I'd love to spend the holidays in San Juan Del Sur Nicaragua again.
+                    Surfing, laying on the beach watching the waves come in. Perfect to forget the world.</p>
+                <footer class="blockquote-footer">Surfing Girl</footer>
+            </blockquote>
+        </div>
+    </section>
 
+    <!-- forms and deals -->
+    <section id="newsletter" class="bg-dark">
+        <div class="container text-white text-center py-5">
+            <p class="lead">Join our Newsletter for Deals and Updates</p>
+            <div class="row justify-content-center">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+                    <form action="" class="form-inline">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary">Join Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main-footer -->
+    <section id="main-footer" class="p-3" style="background-color: black;">
+        <ul class="nav text-center justify-content-center flex-column flex-sm-row">
+            <li class="nav-item">
+                <a href="" class="nav-link text-white">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a href="#samples" class="nav-link text-white">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a href="#explore" class="nav-link text-white">EXPLORE</a>
+            </li>
+            <li class="nav-item">
+                <a href="#newsletter" class="nav-link text-white">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link text-white" data-toggle="modal" data-target="#bookingModal">BOOK NOW</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- modal content -- hiddens -->
+    <div class="modal" id="bookingModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">New booking</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Please fill out the form below and we'll get back to you as soon as possible.</p>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="emails">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="adults">Number of Adults</label>
+                            <select name="" class="form-control" id="adults">
+                                <option value="1">1</option>
+                                <option value="1">2</option>
+                                <option value="1">3</option>
+                                <option value="1">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="children">Number of Children</label>
+                            <select name="" class="form-control" id="children">
+                                <option value="1">1</option>
+                                <option value="1">2</option>
+                                <option value="1">3</option>
+                                <option value="1">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="requests">Additional Requests</label>
+                            <textarea id="requests" rows="3" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit Request</button>
+                    <button class="btn btn-secondary" style="background-color: black;"
+                        data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="bootstrap/jquery/jquery-3.3.1.slim.min.js"></script>
     <script src="bootstrap/popper.js/popper.min.js"></script>

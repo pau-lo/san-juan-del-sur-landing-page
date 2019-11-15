@@ -7646,6 +7646,14 @@ body {
 #social-media {
   padding: 6rem; }
 
+#bottom-quote {
+  padding-bottom: 6rem; }
+  #bottom-quote i {
+    opacity: 0.6; }
+
+#main-footer {
+  font-weight: 100; }
+
 @media (max-width: 768px) {
   .navbar {
     background: #1f1f1f; }
