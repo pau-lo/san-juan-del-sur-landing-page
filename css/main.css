@@ -7640,6 +7640,12 @@ body {
   #quotes i {
     opacity: 0.6; }
 
+#carousel {
+  padding: 7rem; }
+
+#social-media {
+  padding: 6rem; }
+
 @media (max-width: 768px) {
   .navbar {
     background: #1f1f1f; }
